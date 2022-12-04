@@ -1,0 +1,120 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    color: #3d3c40;
+    font-family: "kanit", Helvetica, sans-serif;
+    background-color: #f3e5d4;}
+    
+    .hero-image {
+        background-image: url("../images/HL1.jpg");
+        height: 110%;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        font-family: "Share Tech Mono", Helvetica, sans-serif;
+        
+      }
+      .top-navigation {
+        position: absolute;
+        top: 5%;
+        left: 5%;
+      }
+      .top-navigation a {
+        color: #f2f2f2;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 22px;
+      }
+      .header-text {
+        text-align: center;
+      }
+      .hero-text {
+        text-align: right;
+        position: absolute;
+        top: 86%;
+        left: 39%;
+        transform: translate(-15%, -85%);
+        color: #f2c48d;
+        font-size: 46px;
+        font-weight: bold;
+      }
+      #intro {
+        padding-left: 5%;
+        padding-right: 30%;
+        font-family: "kanit";
+        background-image: url("../images/vt-hedylamarr.jpg");
+        }
+       
+      .newspaper1 {
+        columns: 50px 2;
+      
+      }
+      #titulo {padding-left: 5%;}
+      h3 {
+        font-size: x-large;
+
+      }
+      div.noticia {
+        width: 90%;
+        height: auto;
+        margin: 20px auto;
+        background-color: rgb(137, 153, 68);
+        color: #fff;
+        padding: 15px;
+      }
+      
+      div.noticia img.izquierda {
+        float: left;
+        margin-right: 15px;
+      }
+      
+      div.noticia img.derecha {
+        float: right;
+        margin-left: 15px;
+      }
+      div.noticia img.izquierda {
+        float: left;
+        margin-right: 15px;
+      }
+      
+      div.reset {
+        clear: both;}
+      
+      #video {
+        display: flex;
+        justify-content: center;
+        padding-top: 100px;
+        padding-bottom: 20px;
+      }
+      .pantallacompleta {
+        border-bottom: #3d3c40;
+        border-bottom-left-radius: 3px;
+        border-style: dotted;
+        color: rgb(14, 12, 12);
+        padding: 15px ;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 25px;
+        margin: 4px 2px;
+        cursor: pointer;
+        font-family: "kanit";
+        height: 120px;
+        padding-right: 30px;
+        position: static;
+      }
+      footer {
+        padding-top: 35px;
+        padding-bottom: 25px;
+        background-color: rgb(137, 153, 68);;
+        color: #ebdbc9;
+        text-align: center;
+        font-weight: bold;
+        font-family: "red head mono", Helvetica, sans-serif;
+        text-shadow: #99968f;
+        height: auto;
+      }
+      
+      

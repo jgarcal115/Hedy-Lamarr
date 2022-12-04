@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <link rel="stylesheet" href="./styles/main.css" />
+  <link rel="icon" type="image/x-icon" href="./images/HL1.jpg" />
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Kanit&family=Red+Hat+Mono:ital@1&family=Share+Tech+Mono&display=swap"
+    rel="stylesheet">
+  <title>Hedy Lamarr</title>
+</head>
+
+<body>
+  <header class="hero-image">
+    <nav class="top-navigation">
+      <a href="#intro">Introducción</a>
+      <a href="#Peliculas">Películas</a>
+      <a href="#video">Historia</a>
+    </nav>
+    <div class="hero-text header-text">Hedy Lamarr, Hercios y celuloide</div>
+    </nav>
+  </header>
+
+  <section id="intro">
+    <h1>La estrella de Hollywood</h1>
+    <p class="newspaper1">Hedwig Eva Maria Kiesler, Más conocida como Hedy Lamarr, nació en Viena, el 9 de noviembre de 1914, fallecería en
+      Florida, el 19 de enero de 2000. <br>En un viaje a Londres, tras separarse de su marido, conoció al director de
+      los estudios cinemátográficos Metro-Goldwyn-Mayer, Louis B. Mayer, quien le ofreció un contrato de cine en
+      Hollywood. Alcanzaría la popularidad como actriz, llegando a protagonizar varias peliculas de éxito.
+      <br>Curiosamente, en su faceta menos conocida en donde desarrollaría su potencial. Fue coinventora, junto a George
+      Antheil, de la primera versión del espectro ensanchado que permitiría las comunicaciones inalámbricas de largas
+      distancias (WI-FI).<br> Al comienzo de la Segunda Guerra Mundial, ella y el compositor George Antheil
+      desarrollaron la patente de un sistema de guía por radio para torpedos aliados que utilizaba el espectro
+      ensanchado y la tecnología de salto de frecuencia para vencer la amenaza de interferencias por parte de las
+      Potencias del Eje. <br> Aunque la Armada de los Estados Unidos no adoptó la tecnología hasta la década de 1960,
+      los principios de su trabajo se unieron a la tecnología Bluetooth y son similares a los métodos utilizados en las
+      versiones heredadas de Wi-Fi.<br> Este trabajo llevó a su incorporación al National Inventors Hall of Fame en
+      2014.​
+    </p>
+    </section>
+    <section id="peliculas">
+
+    
+  <div id="titulo">
+  <h3>Películas</h3>
+  </div>
+  <div class="noticia">
+    <img class="izquierda" src="images/extasis.jpg">
+    <aside>
+      <h3>
+        Extásis
+      </h3>
+      Esta cinta checa de 1934 es recordada sobre todo porque causó una gran controversia en su época por su alto
+      contenido erótico, siendo incluso denunciado por el Papa. Incluye el primer desnudo femenino de la historia
+      del cine.
+      La protagonista es la joven Eva, que comete el error de casarse con un hombre con el que no tiene nada en
+      común. Después de darse cuenta de su error, pide el divorcio desolada. Pronto conocerá sin embargo un joven
+      con el que iniciará un romance que le devolverá la felicidad.
+    </aside>
+    <div class="reset"></div>
+  </div>
+  
+  <div class="noticia">
+    <img class="derecha" src="images/algiers_.jpg">
+    <aside>
+      <h3>
+        Algiers
+      </h3>
+      Después de un importante robo de joyas, un hábil ladrón francés, se oculta en las callejuelas de la kashbah
+      argelina huyendo de la policía. Mientras tanto, el tiempo pasa y en el distrito argelino el joven ladrón se
+      enamora de una bella y turbadora joven. Tuvo cuatro nominaciones a los Oscars en 1938. John Cromwell, director de títulos convertidos ya en clásicos como "Ana y el rey de Siam" o "El prisionero de Zenda", dirige en esta ocasión un 'remake' de un clásico del cine francés "Pépé Le Mokó", una de las obras clave del realismo poético francés.</aside>
+    <div class="reset"></div>
+  </div>
+  
+  <div class="noticia">
+    <img class="izquierda" src="images/samsonydalila.jpg">
+    <aside>
+      <h3>
+        Samsón y Dalila
+      </h3>
+      Revival de 1949 de la clásica historia bíblica, protagonizada por Heidy lamarr junto a Victor Mature, y
+      dirigida por Cecil B. deMille. La película es una adaptación de los capítulos XIII a XVI, del libro bíblico de Jueces, y de la novela de 1926-1927 Judge and Fool, de Vladimir Jabotinsky.
+      Distribuida por Paramount Pictures, Sansón y Dalila fue la película más taquillera de 1950. De sus cinco candidaturas a los Premios Óscar, ganó dos: a la mejor dirección artística y al mejor diseño de vestuario.
+    </aside>
+    <div class="reset"></div>
+  </div>
+  </section>
+  <section id="video">
+    <button class="pantallacompleta" onclick="openFullscreen();">Pantalla <br> completa</button>
+    <iframe controls id="myvideo" width="745" height="559" src="https://www.youtube.com/embed/DMyMi09Lk04"
+      title="Documentary - Hedy Lamarr (Extraordinary Women 2011)" frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowfullscreen>
+    </iframe>
+      
+
+
+    <script>
+      var elem = document.getElementById("myvideo");
+      function openFullscreen() {
+        if (elem.requestFullscreen) {
+          elem.requestFullscreen();
+        } else if (elem.webkitRequestFullscreen) { /* Safari */
+          elem.webkitRequestFullscreen();
+        } else if (elem.msRequestFullscreen) { /* IE11 */
+          elem.msRequestFullscreen();
+        }
+      }
+    </script>
+
+  </section>
+  <footer>
+    <p>Juan Carlos García Calvo<br>Málaga Tech Park<br>Primero de ASIR</p>
+  </footer>
+
+</body>
+
+</html>
